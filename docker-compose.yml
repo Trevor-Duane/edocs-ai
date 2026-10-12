@@ -18,9 +18,9 @@ services:
     image: pgvector/pgvector:pg16
     container_name: edocs-ai-postgres
     environment:
-      POSTGRES_DB: edocs_ai
-      POSTGRES_USER: edocs_ai
-      POSTGRES_PASSWORD: edocs_ai
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     ports:
       - "5432:5432"
     volumes:
