@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Ruff
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Local data
+data/
+models/
+
+# Docker
+*.pid
+
+# Alembic
+*.db
+
+# Local databases and generated artifacts
+*.sqlite3
+*.db
+
+
+
+
+# Generated Python package metadata
+*.egg-info/
+
+# Build artifacts
+build/
+dist/
+
+# Local command history or temporary notes
+running-command.txt
